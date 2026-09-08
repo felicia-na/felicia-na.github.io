@@ -1,0 +1,85 @@
+/*CSS document*/
+
+
+body {
+	background-color: rgb(250, 250, 250);
+	/* Not totally white. */
+	color: rgb(51, 51, 51);
+	/* Not totally black. */
+	line-height: 140%;
+	/* A little extra leading. */
+	font-family: arial;
+	margin: 0;
+}
+
+h1 {
+	background-color: rgb(154, 153, 166);
+	color: rgb(250, 250, 250);
+	/* Same as body background. */
+	font-size: 2em;
+	padding: 1em .5em .5em;
+	/* You want three values. */
+	font-weight: 1200em;
+	text-transform: uppercase;
+	margin: 0;
+	width: 100%;
+	box-sizing: border-box;
+	/* This is important. It makes the width of the h1 include the padding. */
+}
+
+
+h2 {
+	background-color: rgb(154, 153, 166);
+	color: rgb(250, 250, 250);
+	font-size: 1.5em;
+	padding: .5em .5em .75em;
+	/*Three values again. You got the idea.*/
+	font-family: serif;
+	font-weight: bold;
+	margin: 0 0 2em 0;
+	width: 100%;
+	box-sizing: border-box;
+	/* This is important. It makes the width of the h2 include the padding. */
+}
+
+h3 {
+	margin: 0em .5em 1em;
+	/*Three values again. You got the idea.*/
+	padding-top: .25em;
+	font-size: 1.25em;
+	color: rgb(151, 61, 49);
+	font-weight: 1000px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	/*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	border-top: 3px solid rgb(151, 61, 49);
+	margin-top: 3em;
+}
+
+h4 {
+	padding: 0em;
+	margin: 0em;
+	font-weight: bold;
+}
+
+p.description {
+	padding: 0em;
+	margin: 0em;
+	font-style: italic;
+}
+
+p.price {
+	margin: 0;
+	padding: 0;
+	color: rgb(151, 61, 49);
+}
+
+ul {
+	margin: 0 0 2em 0;
+	padding: 0 0 0 .5em;
+}
+
+li {
+	margin: 0 0 1em 0;
+	list-style-type: none;
+}
