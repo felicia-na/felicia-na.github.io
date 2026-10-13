@@ -89,6 +89,9 @@ video {
 
 /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
 
+body{
+    font-family: sans-serif;
+}
 
 div.home-container {
     background: url(home-background.jpg) center center fixed;
@@ -129,7 +132,6 @@ h1 {
 h2,
 h3,
 h4 {
-    font-family: sans-serif;
     font-weight: bold;
 }
 
@@ -182,7 +184,6 @@ main.menu ul li {
 
 p {
     margin: 0 0 1em 0;
-    font-family: poppins, sans-serif;
 }
 
 p.product-description {
@@ -216,7 +217,7 @@ nav ul li a {
 
 p.slogan {
     font-size: 3.5em;
-    font-family: Sutro, serif;
+    font-family: serif;
     font-weight: 300;
     font-style: italic;
     margin: 1em 0 2em 0;
@@ -236,7 +237,6 @@ footer {
 address {
     margin: 0;
     color: rgb(254, 136, 0);
-    font-family: poppins, sans-serif;
 }
 
 div.address {
@@ -245,5 +245,4 @@ div.address {
 
 footer p {
     padding: 1em .5em 0 .5em;
-    font-family: poppins, sans-serif;
 }
