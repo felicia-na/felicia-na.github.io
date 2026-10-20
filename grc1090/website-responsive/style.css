@@ -89,8 +89,9 @@ video {
 
 /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
 
-body{
+body {
     font-family: sans-serif;
+    background-color: red;
 }
 
 div.home-container {
@@ -199,7 +200,6 @@ p.price {
     text-align: right;
     margin: 0;
 }
-
 nav ul li {
     text-transform: uppercase;
     font-weight: bold;
@@ -249,31 +249,50 @@ footer p {
 
 nav ul li.selected a {
     color: rgb(255, 255, 255);
-    background-color:  rgb(254, 136, 0);
+    background-color: rgb(254, 136, 0);
 }
 
 @media screen and (min-width: 60em) {
+    h1 {
+        width: 30%
+    }
+
+    div.container {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    div.home-container {
+        max-width: 90%;
+        margin: auto;
+    }
+
     nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 1px;
         margin: 1em 0 1em 0;
     }
+
     nav ul li {
         font-size: 1.5em;
     }
+
     nav ul li.about {
         grid-column: 1/2;
         text-align: right;
     }
+
     nav ul li.menu {
         grid-column: 2/3;
         text-align: center;
     }
+
     nav ul li.contact {
         grid-column: 3/4;
         text-align: left;
     }
+
     main.menu ul {
         display: grid;
         column-gap: 3em;
@@ -281,34 +300,41 @@ nav ul li.selected a {
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr 1fr 1fr;
     }
+
     main.menu ul li.product-1 {
         grid-column: 1/2;
         grid-row: 1/2;
     }
+
     main.menu ul li.product-2 {
         grid-column: 2/3;
         grid-row: 1/2;
     }
+
     main.menu ul li.product-3 {
         grid-column: 1/2;
         grid-row: 2/3;
     }
+
     main.menu ul li.product-4 {
         grid-column: 2/3;
         grid-row: 2/3;
     }
+
     main.menu ul li.product-5 {
         grid-column: 1/2;
         grid-row: 3/4;
     }
+
     main.menu ul li.product-6 {
         grid-column: 2/3;
         grid-row: 3/4;
     }
+
     article {
         display: block;
         background-color: rgb(0, 255, 255);
-        max-width:50%;
-        margin:auto;
+        max-width: 50%;
+        margin: auto;
     }
 }
