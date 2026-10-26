@@ -1,0 +1,360 @@
+/*CSS DOCUMENT*/
+
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+/*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(217, 233, 232);
+}
+
+div.home-container {
+    background: url(home-background.jpg) center center fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+div.container {
+    position: relative;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+/* >>> IMPORTANT: you have to change the wrap of the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class. And you need a div with the class container and all the other pages.  */
+
+main {
+    padding: 1em 1.5em 4em 1.5em;
+}
+
+img {
+    width: 100%;
+    /*Please leave this line.*/
+    display: block;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background: rgb(248, 245, 237);
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 0;
+}
+
+h1 {
+    width: 80%;
+}
+
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+h4 {
+    font-family: "gotti-variable", sans-serif;
+    font-variation-settings: "wght" 700;
+    color:rgb(53, 102, 106);
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: .5em 0 .5em 0;
+    color: rgb(53, 102, 106);
+    font-family: "gotti-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 1.5em 0 1em 0;
+    font-weight: 800;
+    color: rgb(175, 197, 167);
+    font-family: "gotti-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    grid-column: 2/3;
+}
+
+nav ul {
+    text-align: right;
+    padding-left: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+figure {
+    margin-bottom: 1em;
+}
+
+main.menu ul {
+    margin: 0;
+}
+
+main.menu ul li {
+    margin: 0 0 1em 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    row-gap: 0;
+    column-gap: 0;
+    padding: 1em 0 1em 0;
+}
+
+p {
+    margin: 0 0 1em 0;
+    font-size: .9em
+}
+
+p.product-description {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin: 0;
+}
+
+p.price {
+    grid-row: 1;
+    grid-column: 2/3;
+    color: rgb(175, 197, 167);
+    text-align: right;
+    margin: 0;
+}
+nav ul li {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-family: "gotti-variable", sans-serif;
+    font-variation-settings: "wght" 600;
+}
+
+nav ul li a {
+    color: rgb(53, 102, 106);
+    background-color: rgb(248, 245, 237);
+    padding: 0.25em .5em;
+}
+
+
+p.slogan {
+    font-size: 3.5em;
+    margin: 1em 0 2em 0;
+    color: rgb(255, 255, 255);
+    font-family: "amandine", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    box-sizing: border-box;
+    padding: 0 1em 0 0;
+    background: rgb(53, 102, 106);
+}
+
+address {
+    margin: 0;
+    color: rgb(0,0,0);
+}
+
+div.address {
+    padding: 0 0 15em 0;
+}
+
+footer p {
+    padding: 1em .5em 0 .5em;
+    color:rgb(255, 255, 255);
+}
+
+nav ul li.selected a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(175, 197, 167);
+}
+
+article {
+    color: rgb(53, 102, 106);
+}
+
+@media screen and (min-width: 60em) {
+    h1 {
+        width: 30%;
+    }
+
+    div.container {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    div.home-container {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1px;
+        margin: 1em 0 1em 0;
+    }
+
+    nav ul li {
+        font-size: 1.5em;
+    }
+
+    nav ul li.about {
+        grid-column: 1/2;
+        text-align: right;
+    }
+
+    nav ul li.menu {
+        grid-column: 2/3;
+        text-align: center;
+    }
+
+    nav ul li.contact {
+        grid-column: 3/4;
+        text-align: left;
+    }
+
+    main.menu ul {
+        display: grid;
+        column-gap: 3em;
+        margin: 0 3.25em 0 0;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    main.menu ul li.product-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    main.menu ul li.product-2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    main.menu ul li.product-3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    main.menu ul li.product-4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    main.menu ul li.product-5 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    main.menu ul li.product-6 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    article {
+        display: block;
+        max-width: 50%;
+        margin: auto;
+    }
+}
