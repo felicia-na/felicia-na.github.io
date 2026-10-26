@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="600" viewBox="0 0 1400 600" role="img" aria-labelledby="title description">
+  <title id="title">Morro Tea horizontal logo</title>
+  <desc id="description">A circular Morro Bay scene with Morro Rock, waves, and a beige sea otter, paired with the Morro Tea wordmark.</desc>
+  <defs>
+    <clipPath id="badgeClip"><circle cx="300" cy="300" r="220"/></clipPath>
+  </defs>
+  <!-- Round coastal illustration -->
+  <circle cx="300" cy="300" r="232" fill="#F8F5ED" stroke="#AFC5A7" stroke-width="5"/>
+  <circle cx="300" cy="300" r="220" fill="#F1E5D1"/>
+  <g clip-path="url(#badgeClip)">
+    <circle cx="300" cy="203" r="58" fill="#D9E9E8"/>
+    <!-- Morro Rock -->
+    <path d="M157 301 L171 272 L186 264 L198 224 L213 214 L221 179 L238 161 L251 135 L269 144 L280 175 L293 189 L302 224 L317 235 L330 269 L347 282 L363 301 Z" fill="#D7C2A1"/>
+    <path d="M239 162 L251 135 L269 144 L280 175 L293 189 L302 224 L317 235 L330 269 L347 282 L363 301 L237 301 Z" fill="#CDB895" opacity=".72"/>
+    <!-- Sea -->
+    <path d="M76 300 Q153 286 222 300 T360 299 T524 301 V450 H76Z" fill="#D7E9E8"/>
+    <path d="M69 334 Q131 318 194 334 T319 334 T445 333 T532 335" fill="none" stroke="#A9D2D7" stroke-width="9" stroke-linecap="round"/>
+    <path d="M73 369 Q132 353 191 369 T310 369 T429 368 T528 370" fill="none" stroke="#A9D2D7" stroke-width="7" stroke-linecap="round"/>
+    <path d="M89 403 Q149 388 209 403 T329 403 T449 401" fill="none" stroke="#B7C9A8" stroke-width="7" stroke-linecap="round"/>
+    <!-- foreground wave -->
+    <path d="M65 426 Q126 408 187 426 T309 426 T431 426 T535 426 V476 H65Z" fill="#B5D9DD"/>
+    <path d="M107 445 Q158 433 210 445 T313 445 T416 444" fill="none" stroke="#F8F5ED" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="590" y="332" fill="#35666A" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="600" letter-spacing="1">Morro Tea</text>
+  <path d="M596 371 H1056" stroke="#B7C9A8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M800 371 C806 358 819 358 824 371 C819 384 806 384 800 371Z" fill="#B7C9A8"/>
+</svg>
